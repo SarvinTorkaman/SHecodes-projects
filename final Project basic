@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/woman-in-lotus-position_1f9d8-200d-2640-fe0f.png"
+    />
+    <style>
+      body {
+        background: linear-gradient(
+          44.8deg,
+          rgba(255, 136, 102, 0.67) -53.1%,
+          rgba(255, 221, 136, 0.28) 49%
+        );
+      }
+      h1 {
+        color: rgb(104, 45, 85);
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: 80px auto 20px;
+        padding: 50px auto 30px;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 20px 20px;
+        color: rgb(104, 45, 85);
+        border-bottom: 1px double rgb(221, 176, 207);
+        text-shadow: blueviolet;
+        line-height: 1.2cm;
+        margin: auto 11%;
+
+        border-radius: 5px;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        padding: 20px 20px;
+
+        margin: auto 11%;
+        border-bottom: 1px double rgb(221, 176, 207);
+      }
+      li {
+        display: inline;
+        margin: 0 auto;
+        padding: 20px 10px;
+      }
+      img {
+        max-width: 40%;
+        border: 1px solid #ffd9a8;
+        border-radius: 7px;
+        margin: 10px auto;
+        box-shadow: 2px 5px 10px rgba(197, 103, 169, 0.4);
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0.85cm;
+        text-align: left justify;
+        padding: 20px 20px;
+
+        margin: 30px 11%;
+
+        background: radial-gradient(
+          755px at 10.1% 95.3%,
+          rgb(242, 188, 141) 0%,
+          rgb(242, 159, 141) 100.2%
+        );
+        opacity: 0.8;
+        border-radius: 5px;
+      }
+
+      button {
+        display: block;
+        margin: 50px auto;
+        padding: 15px 15px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+
+        border: 1px solid #6e245e;
+        border-radius: 15px;
+
+        background: radial-gradient(
+          755px at 10.1% 95.3%,
+          rgb(242, 188, 141) 0%,
+          rgb(242, 159, 141) 100.2%
+        );
+
+        color: rgb(104, 45, 85);
+        box-shadow: 5px 10px 16px rgba(197, 103, 169, 0.4);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+        background-color: salmon;
+        border-color: rgba(219, 112, 100, 0.1);
+      }
+
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+
+        opacity: 0.8;
+      }
+
+      .learnMore {
+        font-size: x-small;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+      }
+      .credit {
+        text-align: center;
+        font-size: x-small;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top: 1px double rgb(221, 176, 207);
+
+        margin: 20px 11%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Yoga for everyone</h1>
+    <h2>Have <em>you</em> ever tried a 30 day Yoga challange?</h2>
+    <ul>
+      <li>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/014/332/original/yoga.jpg?1627757500"
+          alt="Woman Sitting In a Yoga Position"
+        />
+      </li>
+      <li>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/014/378/original/pexels-photo-588561.jpeg?1627836432"
+          alt="Woman in Yoga pose"
+        />
+      </li>
+    </ul>
+    <p>
+      It’s time to roll out your yoga mat and discover the combination of
+      physical and mental exercises that for thousands of years have hooked yoga
+      practitioners around the globe. The beauty of yoga is that you don’t have
+      to be a yogi or yogini to reap the benefits. Whether you are young or old,
+      overweight or fit, yoga has the power to calm the mind and strengthen the
+      body. Don’t be intimidated by yoga terminology, fancy yoga studios and
+      complicated poses. Yoga is for <em>everyone</em> . <br /><br />
+
+      <strong>Why 30 days?</strong> <br /><br />
+
+      Did you know that research actually shows that a new habit takes around 66
+      days to develop? So a 66 day yoga challenge would be perfect if you’re
+      determined to solidify an everyday practice. However, it could be so long
+      that it seems daunting and unattainable. I think a 30 day yoga challenge
+      is the perfect inbetween - committing to a month of yoga seems doable in
+      my eyes, and the progress you see along the way will be sure to keep you
+      motivated! Plus, you can do several 30 day challenges if you’re really
+      wanting to develop that habit!
+
+      <span class="learnMore"
+        >Learn more about Yoga on
+        <a href="https://en.wikipedia.org/wiki/Yoga" target="_blank"
+          ><strong>WikiPedia</strong></a
+        ></span
+      >
+    </p>
+    <button>
+      Go to a 30 day <br />
+      challange plan
+    </button>
+    <div class="credit"><br/ > <br />Coday by Sarvin Torkamanzadeh</div>
+
+    <script>
+      function doYoga() {
+        let name = prompt("What is your name?");
+        let ready = prompt("Are you ready to start the challange?(Yes/No) 💪");
+        ready = ready.toLowerCase();
+        ready = ready.trim();
+        if (ready === "yes") {
+          alert(`Perfect ! Lets start ${name}🏃‍♀️`);
+        } else {
+          alert(`Ok, ${name}, Come back when you are ready !`);
+        }
+      }
+      let goButtun = document.querySelector("button");
+      goButtun.addEventListener("click", doYoga);
+    </script>
+  </body>
+</html>
